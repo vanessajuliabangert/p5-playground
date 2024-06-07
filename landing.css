@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inconsolata", monospace;
+    ;
+    font-size: clamp(5pt, 4vw, 15pt);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    text-align: right;
+    padding-right: 50px;
+}
+
+/* Position Classes*/
+.center {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+
+}
+
+.menu {
+    display: flex;
+    align-items: left;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vh;
+}
+
+#line {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.content {
+    padding-left: 50px;
+}
+
+.container-right {
+    height: 90vh;
+    overflow-y: scroll;
+}
